@@ -1,0 +1,25 @@
+*.class
+*.log
+*.iml
+*.flattened-pom.xml
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ide files #
+.classpath
+.project
+.mymetadata
+/.idea/
+/captures/
+.DS_Store
+.idea/
+
+# setting folders #
+.settings/
+.svn/
+.bin/
+.git/
+target/
+lib/
