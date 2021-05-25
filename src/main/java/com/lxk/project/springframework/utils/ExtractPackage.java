@@ -27,6 +27,12 @@ public class ExtractPackage {
     public static final String CLASS_SUFFIX = ".class";
 //    private static final Pattern INNER_PATTERN = java.util.regex.Pattern.compile("\$(\\d+).", java.util.regex.Pattern.CASE_INSENSITIVE);
 
+    /**
+     *
+     * @param packageName
+     * @return
+     * @throws IOException
+     */
     public Set<Class<?>> findCandidateComponents(String packageName) throws IOException {
         if (packageName.endsWith(".")) {
             packageName = packageName.substring(0, packageName.length() - 1);
